@@ -1,0 +1,21 @@
+{
+  "name": "test-driven-palindromes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . && prettier-eslint --list-different **/*.js", //(1)
+    "format": "prettier-eslint --write **/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "jest": "^23.6.0",
+    "prettier-eslint-cli": "^4.7.1"
+  }
+}

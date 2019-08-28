@@ -1,0 +1,4 @@
+node_modules/
+# START_HIGHLIGHT
+.vscode/
+# END_HIGHLIGHT
